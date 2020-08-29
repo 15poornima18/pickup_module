@@ -1,0 +1,175 @@
+body{ 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-repeat:no-repeat;
+    background-size: 100%;
+    /*font-family: Gabriola;*/
+/*    font-weight: bold;*/
+/*    background-image: url(back1.jpg);*/
+   
+/*    background-color: #003F2A;*/
+/*       background: linear-gradient(90deg, white, yellowgreen);*/
+
+ }
+/* ul{
+    border: 0.2 solid black;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow:5px 10px 10px #888888;
+}*/
+ul{
+    list-style-type: none;
+   margin-top: 10px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow:5px 10px 10px #888888;
+}
+
+ li{
+    float: right;
+    margin-top: 0;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    font-size:20px;
+}
+li a{
+    display: block;
+    color: green;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a:hover{
+    color:orangered;
+    cursor:pointer;   
+    text-decoration: none;
+}
+li:hover
+{
+    color:orangered;
+    cursor:pointer;  
+}
+
+li a:hover:not(.active) {
+    background-color:white;
+   
+} 
+.active {
+    background-color: #4CAF50;
+ } 
+img{
+   float: left;
+   margin-left: 00px;
+}   
+.heading{
+   text-align: center;
+   color: green;
+}
+.myform{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 15px;
+    /*font-family: Gabriola;*/
+    /*font-weight: bold;*/
+    opacity: 1;
+    padding: 10px;
+    background-color:whitesmoke;
+    height: 520%;
+    width: 100%;
+    /*background: linear-gradient(90deg, white, greenyellow);*/
+}
+.col1{
+    height: 100px;
+    margin-top: 50px;
+    padding: 0;
+    text-align: center;
+}
+#b1{
+    margin-right: 20px;
+    color:white;
+}
+#b2{
+    margin-left: 20px;
+    color:white;
+    
+}
+#b1:hover{
+    color: orangered;
+    cursor: pointer;
+}
+#b2:hover{
+    color: orangered;
+    cursor: pointer;
+}
+
+
+
+/*body{
+    font-family: cursive;
+    margin: 0;
+    background-image: url(im4.jpg);
+}
+
+ul{
+    border: 0.2 solid black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li{
+    float: right;
+}
+li a{
+    display: block;
+    color: green;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+li a:hover:not(.active) {
+    background-color:white;
+  }
+  
+ .active {
+    background-color: #4CAF50;
+ }
+ img{
+   height: 40px;
+   width: 40px;
+    margin: 0;
+    padding: 0;
+}
+.heading{
+   text-align: center;
+   color: green;
+}
+.myform{
+    margin-top: 10px;
+    text-align: center;
+    opacity: 1;
+    padding: 20px;
+    background-color:wheat;
+    height: 500%;
+    width: 100%;
+}
+.col1{
+    height: 110px;
+    margin-top: 50px;
+    padding: 0;
+    
+}*/
